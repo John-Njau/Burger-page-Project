@@ -1,20 +1,53 @@
 *{
     /* margin: 5px; */
     padding: 0px;
+    box-sizing: content-box;
+    border-width: 280px;
+    
 }
 
 strong{
     color: #060d04;
     font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 em{
-    color: rgb(252,200,97);
+    color: #fec12b;
 }
 
 .mktg{
-    max-width: 135px;
+    max-width: 195px;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 25px;
     margin: 23px;
-    
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .desc{
+    font: large;
+    max-width: 265px;
+    margin: 23px;
+}
+
+.citypng {
+    display: flex;
+    float: right;
+    height: 400px;
+    padding: 50px;
+    border-top: 100px;
+    background-color: #fec12b;
+    /* background-size: cover; */
+  
+}
+
+.order {
+    /* padding: 60px; */
+    font-size: 20px;
+    background-color:#fec12b;
+    border: 1px solid lightblue;
+    border-left: 10px;
+    margin-left: 80px;
+    margin-right: 630px;
+
 }
