@@ -2,7 +2,7 @@
     /* margin: 5px; */
     padding: 0px;
     box-sizing: content-box;
-    /* border: 1px solid gray; */
+    border: 1px solid gray;
     /* size: A5; */
     
 }
@@ -60,6 +60,7 @@ em{
     /* border-top: 90px; */
     padding: 10pt;
     border-top: 40pt;
+    color: white;
 }
 
 ul{
