@@ -37,6 +37,7 @@ em{
     padding: 50px;
     border-top: 100px;
     background-color: #fec12b;
+    /* background-blend-mode:screen ; */
     /* background-size: cover; */
   
 }
@@ -46,8 +47,29 @@ em{
     font-size: 20px;
     background-color:#fec12b;
     border: 1px solid lightblue;
-    border-left: 10px;
+    /* border-left: 10px;
     margin-left: 80px;
-    margin-right: 630px;
+    margin-right: 630px; */
 
+}
+
+ul{
+    font-weight: "Bold";
+    font-size: 20px;
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    font-family: 'Courier New';
+    font-weight: "Bold";
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: solid;
 }
