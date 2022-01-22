@@ -2,15 +2,17 @@
     /* margin: 5px; */
     padding: 0px;
     box-sizing: content-box;
-    border: 1px solid gray;
+    border: 1px solid rgb(0, 0, 0);
     /* size: A5; */
     
 }
-/* 
+
 body{
-    margin-left: 200pt;
-    margin-right: 200pt;
-} */
+    width: fit-content;
+    /* margin-left: 200pt;
+    margin-right: 200pt; */
+    /* width: 97pt; */
+} 
 
 strong{
     color: #060d04;
@@ -145,4 +147,87 @@ header{
     width: 940pt;
     height: 600pt;
     margin: 20px;
+}
+
+.menu{
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    width: 940pt;
+}
+
+.menu strong{
+    color: #fec12b;;
+}
+
+.menu:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: solid;
+}
+
+.selection{
+    border: 1px solid black;
+    width: 940pt;
+    text-align: center;
+    margin: 20px;
+    display: flex;   
+}
+
+.selection3 {
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 5%;
+    width: 1300pt;
+    height: 250pt;
+}
+.selection1{
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 5%;
+    width: 1300pt;
+    height: 250pt;
+}
+.selection2{
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 5%;
+    width: 1300pt;
+    height: 250pt;
+}
+
+.selection4{
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 5%;
+    width: 1300pt;
+    height: 250pt;
+}
+.selection5{
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 5%;
+    width: 1300pt;
+    height: 250pt;
+}
+.selection6{
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 5%;
+    width: 1300pt;
+    height: 250pt;
+}
+.selections{
+    border: 1px solid black;
+    width: 940pt;
+    text-align: center;
+    margin: 20px;
+    display: flex;   
+    
+}
+h3 img{
+    background-color: #e0ece7;
+    width: 20pt;
+    height: fit-content;
 }
