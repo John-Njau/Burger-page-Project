@@ -260,6 +260,13 @@ str{
     font-size: 45px;
 }
 
+.dd {
+    background-color:#f7fcf6;
+    /* margin-top: 400px; */
+    border: 1px solid black;
+    width: 940pt;
+    height: 500pt;
+}
 .dd p{
     margin: 0px;
     padding: 20px;
@@ -269,7 +276,42 @@ str{
 .dd img{
     float: right;
     display: flex;
-    /* background-image: url("double-check2.png"); */
+    background-image: url("./Images/double-check2.png");
     margin-right: 290px;
-    background-color: burlywood;
+    background-repeat: no-repeat;
+}
+.more{
+    /* margin-top: 250px; */
+    background-color: #fec12b;
+    /* margin: 20px; */
+    border: 1px solid black;
+    width: 940pt;
+    height: 500pt;
+    margin: 20px;
+} 
+
+.more p{
+    width: 300pt;
+    height: 200pt;
+        max-width: 355px;
+        font-weight: 900;
+        font-size: 35px;
+        margin: 23px;
+        margin-top: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.dwnimg{
+    width: 300pt;
+    height: 200pt;
+    /* border: 1px solid black; */
+    margin: 50px;
+}
+
+.mobile{
+    margin-right: 80px;
+    display: flex;
+    float: right;
+    height: 600px;
+    padding: 50px;
 }
