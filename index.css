@@ -293,12 +293,12 @@ str{
 .more p{
     width: 300pt;
     height: 200pt;
-        max-width: 355px;
-        font-weight: 900;
-        font-size: 35px;
-        margin: 23px;
-        margin-top: 150px;
-        font-family: Arial, Helvetica, sans-serif;
+        /* max-width: 355px; */
+    font-weight: 900;
+    font-size: 35px;
+        /* margin: 23px; */
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .dwnimg{
@@ -314,4 +314,44 @@ str{
     float: right;
     height: 600px;
     padding: 50px;
+}
+.main{
+    width: 940pt;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+}
+
+.end{
+    margin: 20px;
+    border-radius: 5%;
+    /* width: 1300pt;
+    height: 320pt; */
+    border-style: groove;
+}
+
+.map{
+    margin: 20px;
+    border-radius: 5%;
+    width: 500pt;
+    height: 320pt;
+    border-style: groove;
+}
+.sub{
+    margin: 20px;
+    border-radius: 5%;
+    /* width: 1300pt;
+    height: 320pt; */
+    border-style: groove;
+}
+#endli{
+    font-weight: "Bold";
+    font-size: 20px;
+    /* justify-content: right; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* margin-top: -40pt; */
+    list-style-type: none;
+    height: 200px;
+    width: 300px;
 }
