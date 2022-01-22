@@ -325,33 +325,41 @@ str{
 .end{
     margin: 20px;
     border-radius: 5%;
-    /* width: 1300pt;
-    height: 320pt; */
     border-style: groove;
+    width: 200pt;
 }
 
 .map{
     margin: 20px;
     border-radius: 5%;
     width: 500pt;
-    height: 320pt;
+    /* height: 320pt; */
     border-style: groove;
 }
 .sub{
     margin: 20px;
     border-radius: 5%;
-    /* width: 1300pt;
-    height: 320pt; */
     border-style: groove;
+    width: 350pt;
+}
+
+.main{
+    width: 940pt;
+    /* height: 500pt */
 }
 #endli{
     font-weight: "Bold";
     font-size: 20px;
-    /* justify-content: right; */
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* margin-top: -40pt; */
     list-style-type: none;
     height: 200px;
     width: 300px;
 }
+.button {
+    background-color: #fec12b;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 32px;
+    color: #fec12b;
+  }
