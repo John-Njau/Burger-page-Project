@@ -2,7 +2,7 @@
     /* margin: 5px; */
     padding: 0px;
     box-sizing: content-box;
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
     /* size: A5; */
     
 }
@@ -168,66 +168,108 @@ header{
 }
 
 .selection{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 940pt;
     text-align: center;
     margin: 20px;
-    display: flex;   
+    display: flex;
+    /* border-style: inset; */
+    /* border-style: groove; */
+
+}
+
+.selection1{
+    /* border: 1px solid black; */
+    margin: 20px;
+    border-radius: 5%;
+    width: 1300pt;
+    height: 320pt;
+    border-style: groove;
+    border-style: inset;
+}
+
+.selection2{
+    /* border: 1px solid black; */
+    margin: 20px;
+    border-radius: 5%;
+    width: 1300pt;
+    height: 320pt;
+    border-style: groove;
 }
 
 .selection3 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 20px;
     border-radius: 5%;
     width: 1300pt;
-    height: 250pt;
+    height: 320pt;
+    border-style: groove;
 }
-.selection1{
-    border: 1px solid black;
-    margin: 20px;
-    border-radius: 5%;
-    width: 1300pt;
-    height: 250pt;
-}
-.selection2{
-    border: 1px solid black;
-    margin: 20px;
-    border-radius: 5%;
-    width: 1300pt;
-    height: 250pt;
-}
-
 .selection4{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 20px;
     border-radius: 5%;
     width: 1300pt;
-    height: 250pt;
+    height: 320pt;
+    border-style: groove;
 }
 .selection5{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 20px;
     border-radius: 5%;
     width: 1300pt;
-    height: 250pt;
+    height: 320pt;
+    border-style: groove;
 }
 .selection6{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 20px;
     border-radius: 5%;
     width: 1300pt;
-    height: 250pt;
+    height: 320pt;
+    border-style: groove;
 }
 .selections{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 940pt;
     text-align: center;
     margin: 20px;
     display: flex;   
-    
 }
-h3 img{
+/* h3 img{
     background-color: #e0ece7;
     width: 20pt;
     height: fit-content;
+} */
+
+.dd h2{
+    /* border: 1px solid black; */
+    margin: 20px;
+    padding: 50px;
+    max-width: 255px;
+    font-weight: 900;
+    font-size: 45px;
+    margin: 23px;
+    margin-top: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+str{
+    color: #f6b300;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.dd p{
+    margin: 0px;
+    padding: 20px;
+    margin-left: 53px;
+}
+
+.dd img{
+    float: right;
+    display: flex;
+    /* background-image: url("double-check2.png"); */
+    margin-right: 290px;
+    background-color: burlywood;
 }
