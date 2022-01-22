@@ -320,12 +320,13 @@ str{
     text-align: center;
     margin: 20px;
     display: flex;
+    background-color: #f7fcf6;
 }
 
 .end{
     margin: 20px;
     border-radius: 5%;
-    border-style: groove;
+    /* border-style: groove; */
     width: 200pt;
 }
 
@@ -334,12 +335,12 @@ str{
     border-radius: 5%;
     width: 500pt;
     /* height: 320pt; */
-    border-style: groove;
+    /* border-style: groove; */
 }
 .sub{
     margin: 20px;
     border-radius: 5%;
-    border-style: groove;
+    /* border-style: groove; */
     width: 350pt;
 }
 
@@ -361,5 +362,23 @@ str{
     display: inline-block;
     font-size: 16px;
     padding: 15px 32px;
-    color: #fec12b;
+    color: #fdfdfd;
+    border: none;
+  }
+  
+  .sm img{
+      height: 20px;
+      /* display: flex; */
+      
+  }
+
+  footimg{
+      width: 400pt;
+      /* border: 1px solid black; */
+      margin: 250px;
+  }
+
+  dsgn{
+      margin: 70px;
+      /* border: 1px solid black; */
   }
