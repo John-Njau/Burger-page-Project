@@ -10,7 +10,7 @@
 
 body{
     /* width: 1040pt; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 } 
 
 .part1{
@@ -37,7 +37,7 @@ h1 em{
     margin: 23px;
     margin-top: 150px;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* .bdy{
@@ -48,11 +48,10 @@ h1 em{
 } */ */
 
  .desc{
-    font: large;
-    max-width: 265px;
+    /* max-width: 265px; */
     margin: 23px;
-    font-size: 95px;
-    border: 1px solid black;
+    font-size:33px;
+    /* border: 1px solid black; */
 }
 
 .citypng {
@@ -61,7 +60,7 @@ h1 em{
     height: 600px;
     padding: 130px;
     width: 600px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* border-top: 100px; */
     background:linear-gradient(105deg, white 25%, #fec12b 25%);
     /* background-size: 670px 700px; */
@@ -80,10 +79,10 @@ h1 em{
     margin: 30pt;
     border-bottom-right-radius: 0;
     /* border-top: 90px; */
-    /* padding: 10pt; */
+    padding: 10pt;
     border-top: 40pt;
     color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 170px;
 }
 
@@ -94,15 +93,15 @@ ul{
     display: flex;
     flex-direction: row;
     margin-top: -40pt;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 ul li{
     font-family: 'Courier New';
     font-weight: "Bold";
     list-style-type: none;
-    /* margin-right: 40px; */
-    border: 1px solid black;
+    margin-right: 10px;
+    /* border: 1px solid black; */
 }
 
 ul li:hover{
@@ -131,7 +130,7 @@ h2{
     height: 600pt;
     text-align: center;
     background-color:#f7fcf6;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .burgers {
@@ -167,17 +166,18 @@ header{
 }
 
 .menu{
-    margin: 50px;
+    /* margin: 50px; */
     text-align: center;
     font-size: 25px;
     font-weight: 900;
-    width: 940pt;
-    border: 1px solid black;
+    width: 1240pt;
+    /* border: 1px solid black; */
 }
 
 .menu p{
     font-size: 34px;
     font-weight: bold;
+    /* margin-top: -30px; */
 }
 
 .menu strong{
@@ -194,8 +194,8 @@ header{
 }
 
 .selection{
-    border: 1px solid black;
-    width: 940pt;
+    /* border: 1px solid black; */
+    width: 1230pt;
     text-align: center;
     margin: 20px;
     display: flex;
@@ -257,11 +257,11 @@ header{
 }
 .selections{
     /* border: 1px solid black; */
-    width: 940pt;
+     width: 1230pt;
     text-align: center;
     margin: 20px;
     display: flex;   
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 /* h3 img{
     background-color: #e0ece7;
@@ -290,8 +290,8 @@ str{
 .dd {
     background-color:#f7fcf6;
     /* margin-top: 400px; */
-    border: 1px solid black;
-    width: 940pt;
+    /* border: 1px solid black; */
+    width: 1230pt;
     height: 550pt;
     margin: 20px;
 }
@@ -311,8 +311,8 @@ str{
 .more{
     /* margin-top: 250px; */
     background-color: #fec12b;
-    /* margin: 20px; */
-    border: 1px solid black;
+    margin: 20px;
+    /* border: 1px solid black; */
     width: 1240pt;
     height: 600pt;
     margin: 20px;
@@ -373,7 +373,7 @@ str{
 }
 
 .main{
-    width: 940pt;
+    width: 1230pt;
     /* height: 500pt */
 }
 #endli{
@@ -393,9 +393,10 @@ str{
     color: #fdfdfd;
     border: none;
   }
-  
+
   .sm img{
       height: 20px;
+      margin: auto;
       /* display: flex; */
       
   }
@@ -453,3 +454,16 @@ str{
     font-size: 42px;
     margin-bottom: 100px;
   }
+
+  footer{
+    width: 1230pt;
+    /* border: 1px solid black; */
+  }
+footer p{
+    margin: 50px;
+    font-size: 25px;
+}
+
+footer dsgn{
+    font-size: 30px;
+}
