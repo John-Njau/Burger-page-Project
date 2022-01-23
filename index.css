@@ -9,20 +9,20 @@
 
 body{
     width: fit-content;
-    /* margin-left: 200pt;
-    margin-right: 200pt; */
-    /* width: 97pt; */
-    width: 940pt;
+    width: 1040pt;
 } 
 
 strong{
     color: #060d04;
     font-style: italic;
-    font-family: 'poppins';
+    font-size: 45pt;
+    font-family: 'Lobster';
 }
 
-em{
+h1 em{
     color: #fec12b;
+    font-family: 'Lobster';
+    font-size: 45pt;
 }
 
 .mktg{
@@ -47,6 +47,7 @@ em{
     padding: 50px;
     border-top: 100px;
     background-color: #fec12b;
+    background-size: 670px 700px;
     /* background-size; */
     /* background-size: cover; */
     /* margin-top: -70pt; */
@@ -152,15 +153,23 @@ header{
 }
 
 .menu{
-    margin: 20px;
+    margin: 50px;
     text-align: center;
     font-size: 25px;
     font-weight: 900;
     width: 940pt;
 }
 
+.menu p{
+    font-size: 34px;
+    font-weight: bold;
+}
+
 .menu strong{
-    color: #fec12b;;
+    color: #fec12b;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: bolder;
 }
 
 .menu:hover{
@@ -418,4 +427,13 @@ str{
     flex-direction: row;
     margin-left:300px ;
   }
+
+  .end strong{
+      font-size: 42px;
+      margin-bottom: 100px;
+  }
   
+  .end em{
+    font-size: 42px;
+    margin-bottom: 100px;
+  }
