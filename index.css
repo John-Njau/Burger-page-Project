@@ -40,12 +40,13 @@ h1 em{
     /* border: 1px solid black; */
 }
 
-/* .bdy{
+ .bdy{
     /* border: 1px solid black; */
-    /* width: 940pt;
-    height: 600pt;
-    margin: 20px;
-} */ */
+    width: 1240pt;
+    /* font-size: 40px; */
+    /* height: 600pt; */
+    /* margin: 20px; */
+}
 
  .desc{
     /* max-width: 265px; */
@@ -122,7 +123,7 @@ h2{
     /* justify-content: right; */
     display: flex;
     flex-direction: row;
-    /* margin-top: -40pt; */
+    margin-top: 240pt;
     /* margin: 15px; */
     /* border: 1px solid black; */
     padding: 20px;
