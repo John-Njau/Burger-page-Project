@@ -34,6 +34,13 @@ h1 em{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.bdy{
+    /* border: 1px solid black; */
+    width: 940pt;
+    height: 600pt;
+    margin: 20px;
+}
+
  .desc{
     font: large;
     max-width: 265px;
@@ -44,13 +51,16 @@ h1 em{
     display: flex;
     float: right;
     height: 600px;
-    padding: 50px;
-    border-top: 100px;
+    padding: 150px;
+    width: 600px;
+    /* border-top: 100px; */
     background-color: #fec12b;
     background-size: 670px 700px;
     /* background-size; */
     /* background-size: cover; */
-    /* margin-top: -70pt; */
+    margin-top: -230pt;
+    margin-right: 0px;
+
   
 }
 
@@ -106,7 +116,7 @@ h2{
     /* border: 1px solid black; */
     padding: 20px;
     width: 940pt;
-    height: 400pt;
+    height: 600pt;
     text-align: center;
     background-color:#f7fcf6;
 }
@@ -142,13 +152,6 @@ header{
     /* display: flex; */
     /* border: 1px solid black; */
     width: 940pt;
-    margin: 20px;
-}
-
-.bdy{
-    /* border: 1px solid black; */
-    width: 940pt;
-    height: 600pt;
     margin: 20px;
 }
 
@@ -298,7 +301,7 @@ str{
     /* margin: 20px; */
     border: 1px solid black;
     width: 940pt;
-    height: 500pt;
+    height: 600pt;
     margin: 20px;
 } 
 
@@ -307,8 +310,8 @@ str{
     height: 200pt;
         /* max-width: 355px; */
     font-weight: 900;
-    font-size: 35px;
-        /* margin: 23px; */
+    font-size: 42px;
+    margin-left: 63px;
     margin-top: 150px;
     font-family: Arial, Helvetica, sans-serif;
 }
