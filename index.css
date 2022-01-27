@@ -1,17 +1,8 @@
 *{
-    /* margin: 5px; */
     padding: 0px;
-    box-sizing: content-box;
-    /* border: 1px solid rgb(0, 0, 0); */
-    /* size: A5; */
-    /* border: 1px solid black; */
-    
+    box-sizing: border-box; 
 }
 
-body{
-    /* width: 1040pt; */
-    /* border: 1px solid black; */
-} 
 
 .part1{
     width: 1240pt;
@@ -23,6 +14,7 @@ strong{
     font-size: 45pt;
     font-family: 'Lobster';
 }
+
 
 h1 em{
     color: #fec12b;
@@ -37,22 +29,15 @@ h1 em{
     margin: 23px;
     margin-top: 150px;
     font-family: Arial, Helvetica, sans-serif;
-    /* border: 1px solid black; */
 }
 
- .bdy{
-    /* border: 1px solid black; */
-    width: 1240pt;
-    /* font-size: 40px; */
-    /* height: 600pt; */
-    /* margin: 20px; */
-}
+ /* .bdy{ */
+    /* width: 1240pt; */
+/* } */
 
  .desc{
-    /* max-width: 265px; */
     margin: 23px;
     font-size:33px;
-    /* border: 1px solid black; */
 }
 
 .citypng {
@@ -61,51 +46,41 @@ h1 em{
     height: 600px;
     padding: 130px;
     width: 600px;
-    /* border: 1px solid black; */
-    /* border-top: 100px; */
-    background:linear-gradient(105deg, white 25%, #fec12b 25%);
-    /* background-size: 670px 700px; */
-    /* background-size; */
-    /* background-size: cover; */
+    background:linear-gradient(105deg, white 25%, #fbc83a 25%);
     margin-top: -230pt;
-    /* background-image: linear-gradient(75deg, orange); */
 }
 
-.order {
-    font-size: 50px;
+button {
     background-color:#fec12b;
-    /* border: 1px solid lightblue; */
-    border-radius: 50%;
-    width: 170pt;
+    border-radius: 15%;
+    width: 70px;
+    height: 40px;
     margin: 30pt;
     border-bottom-right-radius: 0;
-    /* border-top: 90px; */
-    padding: 10pt;
-    border-top: 40pt;
+    padding: 2pt;
     color: white;
-    /* border: 1px solid black; */
     margin-top: 170px;
+    border: 1px solid grey;
 }
 
 ul{
-    font-weight: "Bold";
-    font-size: 20px;
     justify-content: right;
     display: flex;
-    flex-direction: row;
-    margin-top: -40pt;
-    /* border: 1px solid black; */
-}
-
-ul li{
-    font-family: 'Courier New';
-    font-weight: "Bold";
     list-style-type: none;
-    margin-right: 10px;
+    font-family: sans-serif;
+    font-size: 25px;
+    /* float: right; */
     /* border: 1px solid black; */
+    margin-right: -210px;
+    
 }
 
-ul li:hover{
+li {
+    margin: 5px;
+    /* mar */
+}
+
+li:hover{
     text-decoration: underline;
     text-decoration-color: red;
     text-decoration-style: solid;
@@ -115,23 +90,18 @@ h2{
     color: #542d32;
     font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
-    /* border: 1px solid black; */
 }
 
 .options{
     font-size: 20px;
-    /* justify-content: right; */
     display: flex;
     flex-direction: row;
     margin-top: 240pt;
-    /* margin: 15px; */
-    /* border: 1px solid black; */
     padding: 20px;
     width: 1208pt;
     height: 600pt;
     text-align: center;
     background-color:#f7fcf6;
-    /* border: 1px solid black; */
 }
 
 .burgers {
@@ -141,9 +111,6 @@ h2{
     margin: 20px;
     border-radius: 5%;
 }
- /* img{
-    text-align: center; */
-/* } */
 
 .delivery {
     border: 1px solid black;
@@ -167,21 +134,18 @@ header{
 }
 
 .menu{
-    /* margin: 50px; */
     text-align: center;
     font-size: 25px;
     font-weight: 900;
     width: 1240pt;
-    /* border: 1px solid black; */
 }
 
 .menu p{
     font-size: 34px;
     font-weight: bold;
-    /* margin-top: -30px; */
 }
 
-.menu strong{
+.menu span{
     color: #fec12b;
     font-size: 34px;
     font-style: normal;
@@ -195,18 +159,13 @@ header{
 }
 
 .selection{
-    /* border: 1px solid black; */
     width: 1230pt;
     text-align: center;
     margin: 20px;
     display: flex;
-    /* border-style: inset; */
-    /* border-style: groove; */
-
 }
 
 .selection1{
-    /* border: 1px solid black; */
     margin: 20px;
     border-radius: 5%;
     width: 1300pt;
@@ -216,7 +175,6 @@ header{
 }
 
 .selection2{
-    /* border: 1px solid black; */
     margin: 20px;
     border-radius: 5%;
     width: 1300pt;
@@ -257,21 +215,14 @@ header{
     border-style: groove;
 }
 .selections{
-    /* border: 1px solid black; */
-     width: 1230pt;
+    width: 1230pt;
     text-align: center;
     margin: 20px;
     display: flex;   
-    /* border: 1px solid black; */
 }
-/* h3 img{
-    background-color: #e0ece7;
-    width: 20pt;
-    height: fit-content;
-} */
+
 
 .dd h2{
-    /* border: 1px solid black; */
     margin: 20px;
     padding: 50px;
     max-width: 255px;
@@ -290,8 +241,6 @@ str{
 
 .dd {
     background-color:#f7fcf6;
-    /* margin-top: 400px; */
-    /* border: 1px solid black; */
     width: 1230pt;
     height: 550pt;
     margin: 20px;
@@ -310,31 +259,35 @@ str{
     background-repeat: no-repeat;
 }
 .more{
-    /* margin-top: 250px; */
     background-color: #fec12b;
     margin: 20px;
-    /* border: 1px solid black; */
     width: 1240pt;
     height: 600pt;
     margin: 20px;
+   
 } 
+
+.text{
+    /* margin: auto; */
+    /* margin-top: 30px; */
+    border: 2px solid #fec12b;
+}
 
 .more p{
     width: 300pt;
     height: 200pt;
-        /* max-width: 355px; */
     font-weight: 900;
     font-size: 42px;
     margin-left: 63px;
-    margin-top: 150px;
+    margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.dwnimg{
+.dwnimg {
     width: 300pt;
     height: 200pt;
-    /* border: 1px solid black; */
     margin: 50px;
+    /* padding: 10px; */
 }
 
 .mobile{
@@ -355,7 +308,6 @@ str{
 .end{
     margin: 20px;
     border-radius: 5%;
-    /* border-style: groove; */
     width: 200pt;
 }
 
@@ -363,19 +315,16 @@ str{
     margin: 20px;
     border-radius: 5%;
     width: 500pt;
-    /* height: 320pt; */
-    /* border-style: groove; */
 }
+
 .sub{
     margin: 20px;
     border-radius: 5%;
-    /* border-style: groove; */
     width: 350pt;
 }
 
 .main{
     width: 1230pt;
-    /* height: 500pt */
 }
 #endli{
     font-weight: "Bold";
@@ -398,19 +347,15 @@ str{
   .sm img{
       height: 20px;
       margin: auto;
-      /* display: flex; */
-      
-  }
+      }
 
   footimg{
       width: 400pt;
-      /* border: 1px solid black; */
       margin: 250px;
   }
 
   dsgn{
       margin: 70px;
-      /* border: 1px solid black; */
   }
 
   #circle {
@@ -424,6 +369,7 @@ str{
 
   #circle :hover{
       color: #f6b300;
+      background-color: #f6b300;
   }
 
   #arrow{
@@ -439,26 +385,26 @@ str{
     margin-top: 27px;
   }
 
-  .parent{
-    /* justify-content: right; */
+.parent{
     display: flex;
     flex-direction: row;
     margin-left:300px ;
+    padding: 1.6rem;
+    margin-top: 290px;
   }
 
-  .end strong{
+.end strong{
       font-size: 42px;
       margin-bottom: 100px;
   }
   
-  .end em{
+.end em{
     font-size: 42px;
     margin-bottom: 100px;
   }
 
-  footer{
+footer{
     width: 1230pt;
-    /* border: 1px solid black; */
   }
 footer p{
     margin: 50px;
@@ -468,3 +414,4 @@ footer p{
 footer dsgn{
     font-size: 30px;
 }
+
